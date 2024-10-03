@@ -1,0 +1,43 @@
+Crea un formulario en html que pida:
+-Nombre (Input texto)
+-Dirección (Input texto)
+-Población (Menu desplegable de select)
+-Sexo: Hombre/Mujer/Otros (Seleccionar 1)
+-Cuadro de acepto condiciones (checkbox)
+-Cuadro de acepto publicidad (checkbox)
+-DNI: Botón adjuntar fichero
+-Botón enviar
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reto 16</title>
+</head>
+<body>
+    <form action="" method="get">
+        <br><label>Nombre:</label>
+        <input type="text" name="nombre" value=""/><br/>
+        <br><label>Dirección:</label>
+        <input type="text" name="direccion" value=""/> <br/>
+        <br><label>Población:</label>    
+        <select name="poblacionlista">
+            <option value="" selected="selected">Selecciona una población</option>
+            <option value="opcion1">Fortuna</option>
+            <option value="opcion2">Archena</option>
+            <option value="opcion3">Abanilla</option>
+            <option value="opcion4">Molina</option>
+        </select>   <br/>
+        <br><label>Sexo:</label>
+        <input type="radio" name="sexo" value="mujer">Mujer
+        <input type="radio" name="sexo" value="mujer">Hombre
+        <input type="radio" name="sexo" value="mujer">Otros<br/>
+        <br><label>DNI:</label>
+        <input type="file" name="dni"/><br/>
+        <br><input name="condiciones" type="checkbox" value="condiciones"/>Acepto las condiciones</br>
+        <br><input name="publicidad" type="checkbox" value="publicidad"/>Acepto la publicidad</br>
+        <input type="submit" name="enviar" value="enviar"/>
+        <input type="button" name="cancelar" value="cancelar"/>
+    </form>
+</body>
+</html>
