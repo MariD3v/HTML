@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario segun estandar HTML5</title>
+</head>
+<body>
+    <form>
+        <label>Cliente:</label>
+        <input type="text" name="text" value="" required/><br> 
+        <label>Email:</label>
+        <input type="email" name="email" value="" required/><br> 
+        <label>Nº de pedido:</label>
+        <input type="text" name="npedido" value="" required/> <br> 
+        <label>Fecha:</label>
+        <input type="date" name="date" value=""/><br>       
+        <select name="menu">
+            <option value="opcion2" selected="selected">Producto</option>
+            <option value="opcion3">Hogar</option>
+            <option value="opcion4">Electronica</option>
+            <option value="opcion5">Drogeria</option>
+        </select><br> 
+        <input type="checkbox" name="condiciones" value="condiciones"/> Acepto las condiciones de envio<br>
+        <label>Descripción de devolución</label>
+        <textarea name="descripcion" rows="5"></textarea><br> 
+        <label>Factura:</label>
+        <input type="file" name="factura"> <br> 
+        <input type="submit" name="enviar" value="enviar"/>
+    </form>
+</body>
+</html>

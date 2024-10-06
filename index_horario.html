@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  width: 100%;
+  font-family: verdana;
+  border-spacing:1px;
+}
+
+th, td {
+  font-size:20px;
+  text-align: center;
+  padding: 20px 20px;
+  border-radius: 5px;
+  border: 1px solid ;
+  color:white;
+  
+}
+
+th{
+  font-size:25px;
+  background-color: #f07ec7;
+}
+
+</style>
+</head>
+<body>
+
+<i>
+<table>
+  <tr style="font-size:20px">
+  	<th><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAALq0lEQVR4nO0baVMTWzaf3psPM/MTZp96v2Jq3vyDman5PK/mTdUT6A6gQAgQCAgKId1ABFSE9O3EsAQh4MKqLAKiuOvz+VxRFsEFVCw33oBn6tzbHRKS7nTCojPlrTpVIbl9++zbPZhMn9fntWXL/g35mZMjXws8sQo8kQReGhc5aVLkpecCT35CwM/4Hf7G9hCraHb/2WV2fWn6X1wu8+FfCmbpW4EjJwVOeivyBBIB5dl+kXP/C880feqrMq3hKyrBUKLNBMryvVBU0wg2nx+sx46AZaAdMsYCsOtcBwX8nDXQTn/DPbgXnxHM65jBETe+w/SprYpk9+8EXvKLHFlVEd5bfBhszX7IGg3ArvMdCUHmSDvkN7VAacnhNc3gyKrAS81O3vvbj023CW1U5CWbKnEhVYaifY1UwokSrQWoIbv3NdF3qBohcCTvo/kJR6r0R5GTLlNkzASKKxohc3jzCY9gxHA7fZdqHgJPLokp9X/YVuKdZvc/RI68QgQcuR6wHj+y5YSvB/QXjlyvqg2vnLz0920hXuAIp9p6idMHmejMtpl4FTLGA1AiNCqaIH0QOGnXlhIvcqRAVXm73PLRCF8PBaQlJGJIti0hXuCImYU1GWwt/riRzO5to4iixBw2LzgzZRDSZHCmy+DI9kBpoZdqVL63BbL72yBjIr7z85v9FDdmEoTbCptfRS7HQ3zm6QAU1jdDebYn7iSo3OKBAndzXGEUmUA1AU2Uk/+2ad5e4KQlRCpM7ZUkJqptjgWgaH8TiKlrBNXYjoC3fgQ6u36Ek5efwNCtJTh97zWMTb+Hi/dfwZXrj2F0+C60S6NQndW0lgClEdhd08QSJ4PmoDz7stws/37jcZ5joQ5VN/RFZblecOR5IhDIPeIHZwZTxYpUD8i1g9A9Ng1nZn6CM7ORcOPZKsy8gjD4/sl/6DNSZX+QEU6LB3I6jEWbYsEXDJF2e+sXCTNA5CWbGurQ44a+REUs+N1EAIqq1yRX7+iGU1efRSVaj3j8LnTP2JV58Io9wXN31zbBrhj+IfNMYC1E8lJuQsQ7Uxp+LXLSa7SpnChxPowBZztgj4NxvTLdC509tzQlHkq8p7wLPEJ3CPEr0Rm0BNB/7BpUKFlgsejTND8VMDdB3DFjTChtFjC3x5dVhKt+BAMmArC3lOXqLksz9E3M6RIeSph6RjTJR9OOS1fnYZ+FadmeMl/MSFEiBk2hMS7iK9MavqJeP41oprcq8kU1DKFqawuc+n7RMPGhDNCUfIR5rEDfhXmo3MUIK6xr0jeF4XZaOwi8tILOPA7pE4kSty+69EMZQNU+1ROX5FVA9ZfKuw0Sv6Yh3WNTUJnmpaV2XlurLhN2u5RMkZMajDczePIGH9Kr6kIZEDhxM27idW0+BO4/fg+eqj7wkfGwff3Hr7PokOmhTk8LT8upNiU3kF47shp+EZMBIk/+jQdjDa7H2ViJzCFHV1zeXov4QyVHlajSFbZv6uUqSHuP0d/sdc26uJYWMx9VwUnfxFZ/jpzEzdjM0Du0rNhniAGJSn7y6TLUKwTWFrTTxGn9vuu3FqgZCOmybime3+RXQ2JPDPV3fUkbDWZCuzF6DDh489qWqb0R4lXwVfXSfZg2azrDkQALiTx5o9tAEc3yX6j6F3hjZls9D55vOMnRJv64JvGzc29gdmE5+PfExDTdWxYlKw3T2HyWGFXw0p+01Z8nVhbatL0/QtGVgW2X/NwP8/D0UBcs5hyCZ9UdwWemlz5ArbWZPpPd16aNsxKuBZ5YtDWAkwhuym/Ut/8DOuq/OcS3RUh+obwFFq11sJjvhvneK2HP+g8OMjPQ6VEU+Pyxw6GAlxZ89NQ3FPx3p7ZQ7SOJR3h0fRbmh2/C7NP3Ec8P9t1kKbKrSbeFpjjoUW0N4MlDGv+H9B1g94PFbZO8EcBSmrbii7R9F+Y0rK0uTWprAEcWcVOsPt/g9OsNEz9xYQb25/mhKp05p/32dhi+HT/xCD/ce8mSoixZJxIoDODJMz0fsEwLnBiV1ujs+4iqTo3/mN4akfyBvNa1VHrnYUPEP6vpZH7AWgdPa48Gv7/76C3rImVqMyDjbEBtl703zICdEwHgx1og6bQPvhvyBGFk5l0YYUi0SoxU3mUot6/NDWfAlak3MSWNREdjwJVpxgBHBgnimHzaB/yYn9JgmAFCiAmkn2uDHcOHwwhX4eTD6NKKp6rrGnkINTl+2jXCd7r3dMK9+Xdxqz+ehY0XxgA5AtekYS+kn2s3aAI8c4JZg0i8NyrxCBfmXyfk7aPtQ8k3lHSy9Hl3gKqzceLZWd2jU/T5EvuaBoQC0pJ1qs2AE+RZGMwMhKv8erj0+FXCko+2DyUfiwmzD17A3JnbMPvkfcRZWI3SPECI1AAVMtobDYRBjiVCFkmbeISuyekNS379vntzb6G+uCNoDvefLIfbf0MPs39bA0x1TISdJVcPsEzwkDYDLG45diIkclI2rQQro6uSCmWXBjZF8uuBMmE3Y8L42GTYb4/uLsDT+m6aCj/e4wuehW11VwaTrvmoNs62SsYAkSdZmgxwcuRr2m+z6TOAP+GBJjIKQzdfbljy0XoAZ8buw8PFlahnnb/1As7dWQqe1zX6kCVBufo4l+bKsYshV0g5nNyrrU6oangYqt5mSF4LZh+/gyctp2khtP4sFRqcrGWes18b3+Rej7FyGBedycFIQHQO7PHQOz1sRpy9sbAlxCPMXXxA7X7B5oar4w8iiO+deMQywHSZ4qSFb5akqD8ndZtiLcEsfUsLiyJ9lbK52KHYr9+o2mvC0geY8Q1RJjzLd8P49FoGemZ6GQ6VnqA45NZqCwuhuFC1f/mfhpqiTmXkhTuhfWjSSRmsbg9cm04sJBqL8yv0guV24DzcaV1riiL4Wy4p6S+BpJM6/uq4rF6QvKlJqfl5TAaEtsXzRX3OUudy8RRMoaQSkPz6myE9LQqFnvEZEPGWyExgZ7M+fgWigfAXfdxNWhFSCaR0678AobrmKOzPb4NTVxfiknzozZBR4tHuq5SLkdwafQFx3arzk1biniMSOdJCW87lsbWgsIxxeV92E/RffGxY7aMxQMvbU8mfnQneChXtlWHHoD5edkfQ+flM8a6qVM+v1AuS9FZ9JuwY8IC9TKns0r0wMnTHEANQ/cMvR6NLHpOd1tbLwcLJ7iDw3aA+TulHmO07efK2Mo38xpTIEjiSR7vEVlnX0VAY9EB+VTDbgkZXP9ycXIrP4UUhHjWqTmmX0QkVl0zfpYdLUr8HyrLVwUopx5TocmFihHN4eBFZFtsUEHY1yuDIYi/H6+x29whcvfE0BvHrZgJmlun9X4PIev601LUQ2NliDIei0qDqX9zQgAQudB4Cz2YCrXXGEEBtQW3A22WVgDp7O3T6ztI09/qtRZryTr1YhWtzyzBw4zl1bp3dP4Jn/xC9ZlefwzNsVQY0UIGcA4rX58nShkdk1IVDiOqQVJZsjAkIKb0MoTJFI+IBfMZ6UIakPmPvQsDsVYn5qwJP/mra9AFJno3JxcME6iQHPcAflcHSIFNTwmKrzMJG5Jxp7POeAvYb7tGr6vSID47JpbiTTVuxRGVmCLls1By2A1DLgrPDHMnbEuLVJfJSijoqW1hKILn/4xGOfkGN9VTtt0ry6xcOIaqOEUNkeuv2E4+5iRrq0OFtus3HWuhh1RBJZ4cdmDZvvVlgehvM8JRQt2nePt6FMRbn8DDbUhmBBZReFZkoYFWHhY1q6/SdnJSz4Ti/GQtnCnEUjRYdCiNKCllTBbsxiRKNz2IzA+v5tX+QkFYwt8dU3fSpLQebK27A2juYyJgJ7M0jNDHCzizaLkoTnSeGR4TkPiZh/A33YAMTe3jr/mnqDZ697f8dksjCaSwcSMKZHLWgSgg46TW2sbCTY7iZ8aktu731C+zE4mSGoh1jAk/u02s4vIvkpGX8jN/hpQXdwxMLPvNJ2Pfn9Xl9Xqb/9/VfCbh/70Jvha4AAAAASUVORK5CYII="></th>
+  	<th>Lunes</th>
+  	<th>Martes</th>
+  	<th>Miércoles</th>
+  	<th>Jueves</th>
+  	<th>Viernes</th>
+  </tr>
+  <tr>
+  	<td style="background-color:#ffe556">8:15 </td>
+    <td rowspan="2" style="background-color:#59cfea">Entorno cliente</td>
+    <td rowspan="2" style="background-color:#58d68d">Diseño de interfaces</td>
+    <td rowspan="2" style="background-color:#58d68d">Diseño de interfaces</td>
+    <td rowspan="2" style="background-color:#59cfea">Entorno cliente</td>
+    <td rowspan="2" style="background-color:#58d68d">Diseño de interfaces</td>
+  </tr>  
+    <tr>
+  	<td style="background-color:#ffe556">9:10 </td>
+   
+  </tr> 
+    <tr>
+  	<td style="background-color:#ffe556">10:05 </td>
+    <td style="background-color:#cf9ce3">Entorno servidor</td>
+    <td style="background-color:#59cfea">Entorno cliente</td>
+    <td style="background-color:#cf9ce3">Entorno servidor</td>
+    <td style="background-color:#ffae72">Lenguaje de marcas</td>
+    <td style="background-color:#e46a87">Despliegue de servidores</td>
+    
+  </tr> 
+  <tr>
+  	<td style="background-color:#ffe556">11:00 </td>
+    <td colspan="5" style="font-size:30px;background-color:#887ef0">Recreo</td>
+  </tr> 
+  <tr>
+  	<td style="background-color:#ffe556">11:30 </td>
+    <td rowspan="3" style="background-color:#cf9ce3">Entorno servidor</td>
+    <td style="background-color:#59cfea">Entorno cliente</td>
+    <td style="background-color:#cf9ce3">Entorno servidor</td>
+    <td rowspan="3" style="background-color:#ffae72">Lenguaje de marcas</td>
+    <td style="background-color:#e46a87">Despliegue de servidores</td>
+  </tr> 
+  <tr>
+  	<td style="background-color:#ffe556">12:25 </td>
+    <td rowspan="2" style="background-color:#ffae72">Lenguaje de marcas</td>
+    <td rowspan="2" style="background-color:#e46a87">Despliegue de servidor</td>
+    <td rowspan="2" style="background-color:#cf9ce3">Entorno servidor</td>
+
+  </tr> 
+  <tr>
+  	<td style="background-color:#ffe556">13:20 </td>
+
+  </tr> 
+  <tr>
+  	<td style="background-color:#ffe556">14:15 </td>
+    <td style="background-color:#feb1e8">Inglés</td>
+    <td style="background-color:#feb1e8">Inglés</td>    
+  </tr> 
+  
+</table>
+</i>
+</body>
+</html>
