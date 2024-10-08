@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario HTML5 para JS y PHP</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Indique sus preferencias por favor</legend>
+        <label>Elija una fecha:</label>
+        <input type="date" name="fecha" value=""><br>
+        <label>Elija un fichero:</label>
+        <input type="file" name="fichero" value=""><br>
+        <input type="radio" value="procesadoramd" name="procesador">AMD
+        <input type="radio" value="procesadorintel_i5" name="procesador">Intel i5
+        <input type="radio" value="procesadorintel_i7" name="procesador">Intel i7
+    </fieldset>
+    <fieldset>
+        <legend>Indique sus preferencias por favor</legend>
+        <input type="radio" value="asignaturamatematicas" name="asignaturas">Matemáticas
+        <input type="radio" value="asignaturahistoria" name="asignaturas">Historia
+        <input type="radio" value="asignaturageografia" name="asignaturas">Geografía
+        <input type="radio" value="asignaturalengua" name="asignaturas">Lengua<br>
+        <label>Nombre</label>
+        <input type="text" name="nombre" value=""><br>
+        <label>Apellidos</label>
+        <input type="text" name="apellidos" value=""><br>
+        <label>Dirección</label>
+        <input type="text" name="direccion" value=""><br>
+        <label>Elija un color:</label>
+        <input type="color" name="color" value=""><br>
+        <textarea name="escribir" value="" placeholder="Utilice este cuadro para escribir" rows="6" cols="59"></textarea><br>
+        <label>Elija una fecha</label>
+        <input type="date" name="fecha" value=""><br>
+        <select name="idioma">
+            <option value="ingles">Inglés</option>
+            <option value="aleman">Alemán</option>
+            <option value="frances">Francés</option>
+        </select><br>
+        <label>Elija una hora</label>
+        <input type="time" name="hora" value=""><br>
+        <label>Elija un fichero</label>
+        <input type="file" name="fichero" value=""><br>
+        <input type="checkbox" name="sexo" value="sexomujer">Mujer
+        <input type="checkbox" name="sexo" value="sexohombre">Hombre<br>
+        <select name="ciclo" multiple>
+            <option value="asir">ASIR</option>
+            <option value="dam">DAM</option>
+            <option value="daw">DAW</option>
+        </select>
+    </fieldset>
+</body>
+</html>
